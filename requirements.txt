@@ -1,6 +1,7 @@
-aiobotocore @ file:///C:/b/abs_1c1a_vjay2/croot/aiobotocore_1682537737724/work
+aiobotocore==2.5.0
 aiofiles @ file:///C:/b/abs_9ex6mi6b56/croot/aiofiles_1683773603390/work
-aiohttp @ file:///C:/b/abs_b78zt6vo64/croot/aiohttp_1694181126607/work
+aiohappyeyeballs==2.4.3
+aiohttp==3.10.10
 aioitertools @ file:///tmp/build/80754af9/aioitertools_1607109665762/work
 aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
 aiosqlite @ file:///C:/b/abs_9djc_0pyi3/croot/aiosqlite_1683773915844/work
@@ -36,7 +37,7 @@ black @ file:///C:/b/abs_620t6ndje8/croot/black_1680737261963/work
 bleach @ file:///opt/conda/conda-bld/bleach_1641577558959/work
 bokeh @ file:///C:/b/abs_e5qs_0dl2w/croot/bokeh_1690546119144/work
 boltons @ file:///C:/ci_311/boltons_1677729932371/work
-botocore @ file:///C:/b/abs_01gwdn34ju/croot/botocore_1682528022942/work
+botocore==1.29.76
 Bottleneck @ file:///C:/ci_311/bottleneck_1676500016583/work
 brotlipy==0.7.0
 certifi @ file:///C:/b/abs_36eb5mzhph/croot/certifi_1690232276943/work/certifi
@@ -221,6 +222,7 @@ poyo @ file:///tmp/build/80754af9/poyo_1617751526755/work
 prettytable==3.10.0
 prometheus-client @ file:///C:/ci_311/prometheus_client_1679591942558/work
 prompt-toolkit @ file:///C:/ci_311/prompt-toolkit_1676425940920/work
+propcache==0.2.0
 Protego @ file:///tmp/build/80754af9/protego_1598657180827/work
 psutil @ file:///C:/ci_311_rebuilds/psutil_1679005906571/work
 ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
@@ -366,7 +368,7 @@ xxhash @ file:///C:/ci_311/python-xxhash_1676446168786/work
 xyzservices @ file:///C:/ci_311/xyzservices_1676434829315/work
 y-py @ file:///C:/b/abs_b7f5go6r0j/croot/y-py_1683662173571/work
 yapf @ file:///tmp/build/80754af9/yapf_1615749224965/work
-yarl @ file:///C:/ci_311/yarl_1676432870023/work
+yarl==1.17.1
 ypy-websocket @ file:///C:/b/abs_4e65ywlnv8/croot/ypy-websocket_1684172103529/work
 zict @ file:///C:/b/abs_fc7elavmem/croot/zict_1682698759288/work
 zipp @ file:///C:/ci_311/zipp_1676426100491/work
