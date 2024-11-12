@@ -1,6 +1,5 @@
 # Customer-Churn-Prediction-Model
 
-This analysis is based on 
 
 ### Project Overview
 
@@ -12,7 +11,7 @@ The dataset used for this project was gotten from Kaggle. It is a telecom compan
 ### Tools
 
 - Excel
-- Python libraries Pandas, Scikit-learn,  etc.
+- Python libraries Pandas, Scikit-learn, Joblib, Flask, Gunicorn, etc.
 - Jupyter Notebook
 
 
