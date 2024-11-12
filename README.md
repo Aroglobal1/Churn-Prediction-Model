@@ -13,12 +13,13 @@ The dataset used for this project was gotten from Kaggle. It is a telecom compan
 
 - Excel
 - Python libraries Pandas, Scikit-learn,  etc.
-- Machine Learning Library: Scikit-learn, Spacy, etc.
 - Jupyter Notebook
 
 
 ### Steps
-These are the various steps involved in the sentiment analysis of Amazon product reviews dataset
+
+The project includes several  data preprocessing, model training, and deploying. the model on Heroku, making it accessible online.
+
 
 #### Data Exploration and Preprocessing
 The initial step was to install and import all the required python libraries/modules that are to be used in the course of the analysis, then the next step involved converting the dataset from a text file format to a CSV format. This conversion facilitated easier manipulation and analysis within Jupyter Notebook.
