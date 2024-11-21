@@ -36,11 +36,14 @@ import seaborn as sns
 df.info() # details of the columns
 df.head() # display of the first 5 rows across the columns
 ```
+![1a](https://github.com/user-attachments/assets/592aa256-707e-4388-bbe3-5864c94a36b2)
 
 In a bid to know the number of Customers that would likely leave the service (churn) and those that would not.
 ```python
 df['Churn'].value_counts()
 ```
+![2a](https://github.com/user-attachments/assets/548d57c5-9c03-4a3d-a8a0-9d5c26cb0a08)
+
 Having run this code, a total of 5174 are not likely to churn while 1869 customers are likely to churn the telecommunication services.
 
 
@@ -62,7 +65,7 @@ axes[3].set_title('Dependents')
 
 plt.tight_layout()
 ```
-
+![1](https://github.com/user-attachments/assets/500ebe31-c40b-4545-bfeb-65309b1bf7e4)
 
 
 A boxplot is used to visualize the Monthly Charges and the churn status of the customers. This shows that
@@ -70,6 +73,8 @@ A boxplot is used to visualize the Monthly Charges and the churn status of the c
 sns.boxplot(data = df, x = "Churn", y = "MonthlyCharges")
 plt.show()
 ```
+![2](https://github.com/user-attachments/assets/abc41357-18af-4a5c-8988-44dd2070a39f)
+
 
 This reveals the churn status of customers across columns like Internet Service, Online Security, Device Protection and Tech Support. This will help investigate if a lag in any of these services contribute to a customer churning.
 ```python
@@ -89,6 +94,8 @@ axes[3].set_title('TechSupport')
 
 plt.tight_layout()
 ```
+![3](https://github.com/user-attachments/assets/0dd15908-4071-475f-8fe4-98e51296a24f)
+
 
 #### Data Preprocessing
 
@@ -112,6 +119,8 @@ Here, we need to encode the categorical values, replacing them with 0-2. In a bi
 dfa = df.drop(['customerID', 'SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges'], axis=1)
 dfa.head()
 ```
+![4](https://github.com/user-attachments/assets/2de42982-0ed1-4285-a803-fe7e7adbb7f9)
+
 
 ```python
 # encoding the categorical variables 
@@ -119,6 +128,8 @@ le = preprocessing.LabelEncoder()
 dfb = dfa.apply(le.fit_transform)
 dfb.head()
 ```
+![5](https://github.com/user-attachments/assets/9263b831-74f2-4c78-8923-4b43bc597b68)
+
 
 Having encode them, then, we have to merge both non-categorical and categorical columns together before taking further steps
 ```python
@@ -151,6 +162,8 @@ X_resampled, y_resampled = oversample.fit_resample(X_train, y_train)
 X_train, y_train = X_resampled, y_resampled # This replaces the original training data with the oversampled data
 y_train.value_counts()
 ```
+![6](https://github.com/user-attachments/assets/1db56482-6e68-401b-8f83-267299370390)
+
 
 #### Model Building and Evaluation
 
@@ -185,6 +198,8 @@ print(f'Accuracy: {accuracy:.2f}\n'
      f'F1 Score: {f1:.2f}\n'
      f'ROC AUC: {roc_auc:.2f}')
 ```
+![7](https://github.com/user-attachments/assets/c36cc1d1-3d60-4fee-bfd6-33b2e52528b8)
+
 
 
 #### Model Deployment
