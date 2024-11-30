@@ -102,10 +102,10 @@ plt.tight_layout()
 ```
 ![3](https://github.com/user-attachments/assets/0dd15908-4071-475f-8fe4-98e51296a24f)
 
-Internet Service: Customers with Fiber optic service churned more, possibly due to its higher cost or poor network coverage.
-Online Security: More customers who churned did not opt for online security, possibly leaving them vulnerable to cyberattacks.
-Device Protection: Customers without device protection churned the most, which could be due to the service's cost or lack of awareness.
-Tech Support: A larger percentage of customers who churned did not subscribe to tech support, which might indicate dissatisfaction with the service.
+- **Internet Service:** Customers with Fiber optic service churned more, possibly due to its higher cost or poor network coverage.
+- **Online Security:** More customers who churned did not opt for online security, possibly leaving them vulnerable to cyberattacks.
+- **Device Protection:** Customers without device protection churned the most, which could be due to the service's cost or lack of awareness.
+- **Tech Support:** A larger percentage of customers who churned did not subscribe to tech support, which might indicate dissatisfaction with the service.
 
 
 #### Data Preprocessing
@@ -264,3 +264,7 @@ def predict():
 
 
 #### Insights
+It was observed that 27% of the customers have churned, highlighting a need for immediate action to investigate the factors driving this churn. This indicates a potential issue with customer retention, which could negatively impact the company's revenue, reputation and customer's loyalty.
+
+The analysis also revealed a relationship between customer churn and high monthly charges. This suggests that price sensitivity is a major factor contributing to churn. To address this, the company may need to review its pricing structure or introduce discounts and incentives to retain more customers.
+
